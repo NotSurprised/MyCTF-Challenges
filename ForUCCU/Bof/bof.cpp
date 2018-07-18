@@ -17,7 +17,7 @@ void md5bof(char *mid){
         result += convert[i];
     }
     if(result != hashcode){
-        printf("Flag{Catch_Me_if_U_Can}");
+        printf("UCCU{Catch_Me_if_U_Can}");
         system("pause");
     }
     else{
