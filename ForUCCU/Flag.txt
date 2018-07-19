@@ -1,0 +1,4 @@
+Bof           	UCCU{Catch_Me_if_U_Can}
+Leaky		UCCU{%x_f0r_H3x}
+Mistake		UCCU{OperatorPriority}
+PHPstrcmp	UCCU{Strcmp&ArrayInput}
