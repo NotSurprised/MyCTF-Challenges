@@ -8,7 +8,7 @@ char *keypt = NULL;
 void md5bof(char *mid){
     char overflow[40];
 	keypt = mid;
-    printf("Give me the key : ");
+    printf("Oh, Ok, Please give me the check : ");
     scanf("%s", overflow);
     int i = 0;
     unsigned long result = 0x2cc29487;
@@ -17,11 +17,11 @@ void md5bof(char *mid){
         result += convert[i];
     }
     if(result != hashcode){
-        printf("UCCU{Catch_Me_if_U_Can}");
-        system("pause");
+        printf("Great!! Payment is confirmed.\n");
+        printf("UCCU{Catch_Me_if_U_Can}\n");
     }
     else{
-        printf("Oh no, plz try again!!\n");
+        printf("Oh no, You a fraudster!! I'll send you to the prison.\n");
 	}
 }
 
@@ -30,7 +30,7 @@ int main(){
 	setvbuf(stdout, 0LL, 2, 0LL);
 	setvbuf(stdin, 0LL, 1, 0LL);
 	char choice;
-	printf("Try me?\n");
+	printf("Are you trying to pay in cash or??\n");
 	char blank[20] = {0};
 	md5bof(blank);
 }
