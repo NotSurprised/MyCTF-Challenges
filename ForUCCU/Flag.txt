@@ -1,4 +1,24 @@
-Bof           	UCCU{Catch_Me_if_U_Can}
-Leaky		UCCU{%x_f0r_H3x}
-Mistake		UCCU{OperatorPriority}
-PHPstrcmp	UCCU{Strcmp&ArrayInput}
+Name:		Dicaprio&Hanks
+Discription:	Pay the bill with nothing.
+Hints:		Unlimited quota made disaster.
+Folder:		Bof
+Flag:		UCCU{Catch_Me_if_U_Can}
+
+Name:		EchoRift
+Discription:	Find the secret of rift.
+Hints:		Make it hex back.
+Folder:		Leaky
+Flag:		UCCU{%x_f0r_H3x}
+
+Name:		Prophet
+Discription:	If I know, why should I ask you?
+Hints:		str always bring problem.
+Folder:		PHPstrcmp
+Flag:		UCCU{Strcmp&ArrayInput}
+
+Name:		Hacker's Manifesto
+Discription:	Too long to finish it.
+Hints:		Diff with original one.
+Folder:		Article		
+Flag:		UCCU{Diff_it_for_flag}
+	

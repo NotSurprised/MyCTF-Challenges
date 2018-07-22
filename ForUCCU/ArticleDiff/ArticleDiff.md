@@ -1,6 +1,7 @@
 # ArticleDiff
 
 http://www.phrack.org/issues/7/3.html#article
+https://text-compare.com/
 
 Original
 ```
@@ -146,7 +147,7 @@ for what could be dirt-cheap if it wasn't run by profiteering gluttons, and
 you call us criminals.  We explore... and you call us criminals.  We leek
 after knowledge... and you call as criminals.  We exist without skin color,
 without nationality, without religious bias... and you call us criminals.
-You build atomic bombs, you sage wars, you murder, cheat, and lie to us
+You build atomic bombs, you gage wars, you murder, cheat, and lie to us
 and try to make us believe it's for our own good, yet we're the criminals.
 
         Yes, I am a criminal.  My crime is that of curiosity.  My crime is
