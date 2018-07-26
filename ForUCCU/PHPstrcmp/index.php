@@ -1,5 +1,5 @@
 <?php 
-    if(@$_GET['name'])
+	if(@$_GET['name'])
     {
         @$get=$_GET['name'];
         $file = fopen("flag.php", "r") or die("Unable to open flag!");
@@ -14,4 +14,5 @@
         }
         fclose($file);
     }
+	highlight_file('PHPstrcmp.php');
 ?>

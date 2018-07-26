@@ -1,5 +1,5 @@
 # Protect log.txt
-<Files ./flag.txt>
+<Files ./flag.php>
 Order Allow,Deny
 Deny from all
 </Files>
