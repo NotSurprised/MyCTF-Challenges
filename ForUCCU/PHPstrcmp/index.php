@@ -1,9 +1,8 @@
 <?php 
+    include 'flag.php';
 	if(@$_GET['name'])
     {
         @$get=$_GET['name'];
-        $file = fopen("flag.php", "r") or die("Unable to open flag!");
-        $flag = fread($file,filesize("flag.php"));
         if(@strcmp($get, $flag)==0)
         {
             echo $flag;
